@@ -1,0 +1,14 @@
+/*common.css*/
+html{
+  background-color: #141414;
+}
+/*去下划线👇*/
+abbr{
+    text-decoration: none;
+  }
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type:none;
+}

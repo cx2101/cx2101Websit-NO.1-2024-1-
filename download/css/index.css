@@ -1,0 +1,70 @@
+/* index.css */
+    /* MAIN_css */
+html{
+    background-color: rgb(214, 214, 214);
+}
+.title{
+    color: rgba(71, 255, 169, 0.575);
+        text-align: center;
+}
+hr{
+    width: auto;
+    height: 5px;
+}
+.content{
+    color: rgb(128, 239, 247);
+    font-size: 15%;
+    /*别动ok?*/
+    display: flex;
+    flex-wrap: wrap;
+}
+/* DATE Css */
+li img{
+    width: 50px;
+}
+.Date{
+    color: rgb(0, 0, 0);
+}
+.flushed{
+    background: transparent;
+    border-radius: 6px;
+    border: 2px solid rgb(45, 182, 182);
+}
+.flushed:hover{
+    background-color: rgb(89, 235, 186);
+    color: white;
+}
+
+.content img{
+    width: 20%;
+}
+
+.content div{
+    background-color: blanchedalmond;
+    box-shadow: 2px 2px 8px gray;
+    flex: 1;
+    width: 90%;
+    border-radius: 1%;
+    margin-top: 19px;
+}
+.content div p{
+    font-size: 95%;
+    word-spacing: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* BASE_css */
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(102, 221, 230);
+}
+/* BASE-F */
+p{
+    text-shadow: 1px 0.1px;
+    word-spacing: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

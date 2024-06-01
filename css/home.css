@@ -1,0 +1,15 @@
+/*Home.css*/
+.content-1{
+    color: aliceblue;
+    margin-left: 2%;
+}
+.content-2{
+    color: rgba(35, 190, 190, 0.932);
+}
+.Loding{
+    text-align: center;
+    color: rgba(35, 190, 190, 0.932);
+}
+.div_h1 strong{
+    color: rgb(198, 248, 248);
+}

@@ -1,0 +1,150 @@
+/*主要内容*/
+.text{
+    text-align: center;
+    color: rgba(237, 238, 196, 0.815);
+}
+.h1_index{
+    color: rgb(21, 187, 181);
+    text-align: center;
+    border: none;
+}
+.maker_img{
+    width: 37px;
+    height: 37px;
+    margin-top: -10%;
+    margin-left: 97%;
+    border-radius: 50%;
+    font-size: medium; 
+}
+.maker_img:hover{
+    width: 40px;
+    height: 40px;
+    margin-right: 1%;
+}
+/* massage CSS */
+.massage{
+    margin-top: 50px;
+}
+.massage p{
+    text-align: center;
+    color: #fff;
+}
+.massage-button{
+    color: #5f5f5f7e;
+    background: transparent;
+    border-radius: 6px;
+    border: 2px solid rgb(102, 95, 95);
+}
+.massage-button:hover{
+    background-color: #141415;
+    border: 2px solid #464646;
+    color: #fff;
+}
+.massage-button-clear{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 6.5px;
+    color: rgb(80, 80, 80);
+}
+.massage-button-clear:hover{
+    background-color: #141415;
+    color: #f2f2f2;
+}
+/* notic */
+.dialog-css{
+    display: flex;
+}
+/* 版权 */
+.footer-div{
+    background-color: #000000b9;
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+.footer-wapper{
+    display: flex;
+}
+.footer-div{
+    color: #ffffff;
+}
+.footer-div a{
+    color: #fff;
+}
+
+/*以下为导航栏css*/
+/* 导航栏样式 */
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+/* 导航栏链接样式 */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* 创建导航栏中的下拉菜单 */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+/* 下拉菜单按钮样式 */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+/* 下拉菜单链接样式 */
+.dropdown-content a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* 折叠导航栏内容样式 */
+.content {
+    margin-top: 75px;
+    padding: 16px;
+}
+/*title*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: none;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Positioning the tooltip */
+    position: absolute;
+    z-index: 2;
+    top: 150%;
+    left: 90%;
+    margin-left: -50px;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*导航栏结束*/

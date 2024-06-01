@@ -1,0 +1,96 @@
+<!--Website made by @菜鸟-->
+<!--Creation time:2023 11 5 10:29-->
+<!--本网站版权归 ©Code-Bird 所有-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="在这里回忆你的初中生活">
+    <meta name="keywords" content="磁县2101">
+    <title>2101</title>
+    <audio src="./mp3/起风了.mp3" id="haoyu" autoplay loop></audio>
+    <!--引用外部css-->
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4431281_migf6c7934.css">
+    <link rel="shortcut icon" href="./image/菜鸟nem.ico" type="/x-icon">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <div class="navbar">
+        <a href="home.html">主页</a>
+        <a href="#">论坛</a>
+        <a href="./download/index.html" target="_blank">其他</a>
+
+        <!--添加导航栏对象-->
+    </div>
+    <div class="dialog-css">
+        <dialog open> 
+            <p>会有音乐播放,请合理调节音量</p>
+            <form method="dialog">
+              <button>OK</button>
+            </form>
+        </dialog>
+    </div>
+      
+<!-- Page body -->
+    <div class="content">
+            <!-- Web owner -->
+        <div>
+            <a href="maker.html">
+                <img src="./image/菜鸟.jpg" class="maker_img " alt="站主信息" title="站主信息">
+            </a>
+        </div>
+        <!-- page Title  -->
+        <h1 class="h1_index animate__animated animate__backInDown animate__slow	3.3s">
+            <abbr title="2101">欢迎来到2101website</abbr>
+        </h1>
+        <div class="text">
+            <h4>2101班是一个充满希望，充满活力的班级</h4>
+            <br>
+        </div>
+        <!-- Page Title Over -->
+        <div class="massage">
+            <div class="message-text">
+                <p  id="message-p"></p>
+            </div>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '请保持那一份热爱，奔赴下一场山海。'">1毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '宇宙很大，生活更大，也许以后还有缘相见。'">2毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '不要停止奔跑，不要回顾来路，来路无可眷恋，值得期待的只有前方。'">3毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '希望你继续兴致盎然的与世界交手，一直走在开满鲜花的路上。'">4毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '人生从夏天开始，以夏天结束；因为夏天是毕业季。'">5毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '青春本来就是马不停蹄的错过和相遇 愿有前程奔赴，亦有岁月共回首。'">6毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '来的时候也是夏天 去的时候也是夏天 一张毕业照 一张试卷我们便散了。'">7毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '我们来自不同的道路，相聚在十字路口，现在，红灯结束，绿灯亮启，继续向着梦想前进吧，以后顶峰相见。'">8毕业留言</button>
+            <button class="massage-button" onclick="document.getElementById('message-p').innerHTML = '相逢一醉是前缘，风雨散，飘然何处'">9毕业留言</button>
+            <button class="massage-button-clear" onclick="document.getElementById('message-p').innerHTML = '<!--清空-->'">清空</button>
+        </div>
+<!-- Page body Over -->
+    </div>
+    <!-- Footer 版权 -->
+    <div class="footer-div">
+        <div class="footer-wapper">
+            <ul>
+                <h3>友情赞助</h3>
+                <li>
+                    <a href="#">
+                        Code-Bird
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <h3>demo</h3>
+                <li>
+                    <a href="#">
+                        Code-Bird
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./JavaScript/common.js"></script>
